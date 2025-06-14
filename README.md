@@ -1,14 +1,14 @@
-Welcome to my Powershell repository!
+Welcome to my PowerShell repository!
 
-I'll be sharing my scripts and functions here.
+I'll be sharing my scripts and functions here as well as explain how to use PowerShell.
 
 Let's start by explaining how to get started with PowerShell functions. Functions allow you to automate repetitive tasks by defining reusable blocks of code that act like your own commands.
 
 ### 1. Creating the PowerShell profile
 
-In order to have a Powershell profile, you'll need a Powershell folder, a scripts folder and a .ps1 file containing your profile. This file will contain the startup instructions for Powershell, which allows you to perform custom actions when PowerShell starts — such as importing functions or setting preferences.
+In order to have a PowerShell profile, you'll need a PowerShell folder, a scripts folder and a .ps1 file containing your profile. This file will contain the startup instructions for PowerShell, which allows you to perform custom actions when PowerShell starts — such as importing functions or setting preferences.
 
-By default, your documents folder won't have anything related to Powershell:
+By default, your documents folder won't have anything related to PowerShell:
 
 ![docs](./screenshots/docs.png)
 
@@ -50,7 +50,7 @@ Once done, PowerShell will automatically run the code in your profile every time
 
 ### 4. Changing the execution policy
 
-By default, Powershell blocks the execution of scripts, that includes functions. So, if you reopen Powershell, you might get the following error message:
+By default, PowerShell blocks the execution of scripts, that includes functions. So, if you reopen PowerShell, you might get the following error message:
 
 "Cannot be loaded because running scripts is disabled on this system."
 
